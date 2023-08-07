@@ -129,11 +129,12 @@ header .container::after{
   left: 15px;
 
 }
-header .logo{
-  color: var(--icon-color)
+header .logo a{
+  color: var(--icon-color);
+  text-decoration: none;
 }
 header .logo h1{
-  margin:0 ;
+  margin: 0;
 }
 header .nav{
   flex: 1;
@@ -174,7 +175,7 @@ header .nav ul{
   }
 }
 header .nav ul a{
-  padding: 19px 0;
+  padding: 18px 0;
   margin-right: 15px;
   color: white;
   position: relative;
